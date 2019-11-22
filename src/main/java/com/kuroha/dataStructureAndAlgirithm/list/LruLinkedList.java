@@ -3,7 +3,7 @@ package com.kuroha.dataStructureAndAlgirithm.list;
 import java.io.Serializable;
 
 /**
- * @author Chenyudeng
+ * @author kuroha
  */
 public class LruLinkedList<T> implements Serializable {
 

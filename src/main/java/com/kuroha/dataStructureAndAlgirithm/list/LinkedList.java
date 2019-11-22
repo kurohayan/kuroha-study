@@ -3,7 +3,7 @@ package com.kuroha.dataStructureAndAlgirithm.list;
 import java.io.Serializable;
 
 /**
- * @author Chenyudeng
+ * @author kuroha
  */
 public class LinkedList<T> implements Serializable {
     private static final long serialVersionUID = 2258704786666970210L;

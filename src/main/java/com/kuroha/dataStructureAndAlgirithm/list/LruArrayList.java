@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Chenyudeng
+ * @author kuroha
  */
 public class LruArrayList<T> implements Serializable {
     private static final long serialVersionUID = -6045063239100809173L;

@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Arrays;
 
 /**
- * @author Chenyudeng
+ * @author kuroha
  */
 public class ArrayList<T> implements Serializable {
     private static final long serialVersionUID = -7508753313914906105L;
