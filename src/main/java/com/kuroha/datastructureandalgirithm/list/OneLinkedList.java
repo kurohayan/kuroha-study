@@ -1,8 +1,9 @@
-package com.kuroha.dataStructureAndAlgirithm.list;
+package com.kuroha.datastructureandalgirithm.list;
 
 import java.util.NoSuchElementException;
 
 /**
+ * 单链表
  * @author kuroha
  */
 public class OneLinkedList<T> {

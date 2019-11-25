@@ -1,8 +1,9 @@
-package com.kuroha.dataStructureAndAlgirithm.list;
+package com.kuroha.datastructureandalgirithm.list;
 
 import java.io.Serializable;
 
 /**
+ * Lru链表
  * @author kuroha
  */
 public class LruLinkedList<T> implements Serializable {

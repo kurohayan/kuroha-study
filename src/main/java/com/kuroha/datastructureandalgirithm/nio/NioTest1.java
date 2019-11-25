@@ -1,4 +1,4 @@
-package com.kuroha.dataStructureAndAlgirithm.nio;
+package com.kuroha.datastructureandalgirithm.nio;
 
 import java.io.File;
 import java.io.FileInputStream;

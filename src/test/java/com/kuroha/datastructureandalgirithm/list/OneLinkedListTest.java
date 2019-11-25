@@ -1,8 +1,6 @@
-package com.kuroha.dataStructureAndAlgirithm.list;
+package com.kuroha.datastructureandalgirithm.list;
 
 import org.junit.Test;
-
-import java.util.LinkedList;
 
 public class OneLinkedListTest {
 

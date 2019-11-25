@@ -1,4 +1,4 @@
-package com.kuroha.dataStructureAndAlgirithm.socket.entry.pojo;
+package com.kuroha.datastructureandalgirithm.socket.entry.pojo;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;

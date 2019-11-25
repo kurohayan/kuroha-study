@@ -1,10 +1,11 @@
-package com.kuroha.dataStructureAndAlgirithm.list;
+package com.kuroha.datastructureandalgirithm.list;
 
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * Lru数组
  * @author kuroha
  */
 public class LruArrayList<T> implements Serializable {

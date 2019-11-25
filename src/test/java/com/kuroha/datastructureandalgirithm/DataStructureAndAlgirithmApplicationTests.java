@@ -1,4 +1,4 @@
-package com.kuroha.dataStructureAndAlgirithm;
+package com.kuroha.datastructureandalgirithm;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

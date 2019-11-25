@@ -1,4 +1,4 @@
-package com.kuroha.dataStructureAndAlgirithm.socket;
+package com.kuroha.datastructureandalgirithm.socket;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;

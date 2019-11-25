@@ -1,8 +1,10 @@
-package com.kuroha.dataStructureAndAlgirithm.list;
+package com.kuroha.datastructureandalgirithm.list;
 
 import java.io.Serializable;
+import java.util.concurrent.LinkedBlockingQueue;
 
 /**
+ * 链表
  * @author kuroha
  */
 public class LinkedList<T> implements Serializable {

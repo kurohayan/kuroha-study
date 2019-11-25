@@ -1,9 +1,9 @@
-package com.kuroha.dataStructureAndAlgirithm.socket.client;
+package com.kuroha.datastructureandalgirithm.socket.client;
 
-import com.kuroha.dataStructureAndAlgirithm.list.ArrayList;
-import com.kuroha.dataStructureAndAlgirithm.list.LinkedList;
-import com.kuroha.dataStructureAndAlgirithm.list.LruArrayList;
-import com.kuroha.dataStructureAndAlgirithm.list.LruLinkedList;
+import com.kuroha.datastructureandalgirithm.list.ArrayList;
+import com.kuroha.datastructureandalgirithm.list.LinkedList;
+import com.kuroha.datastructureandalgirithm.list.LruArrayList;
+import com.kuroha.datastructureandalgirithm.list.LruLinkedList;
 
 import java.io.FileInputStream;
 import java.io.OutputStream;

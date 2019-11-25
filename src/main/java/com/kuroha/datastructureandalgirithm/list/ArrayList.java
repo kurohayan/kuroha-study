@@ -1,9 +1,10 @@
-package com.kuroha.dataStructureAndAlgirithm.list;
+package com.kuroha.datastructureandalgirithm.list;
 
 import java.io.Serializable;
 import java.util.Arrays;
 
 /**
+ * 数组
  * @author kuroha
  */
 public class ArrayList<T> implements Serializable {
