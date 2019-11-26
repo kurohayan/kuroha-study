@@ -18,8 +18,14 @@ public class ArrayStack<T> {
         data = new Object[size];
     }
 
+    public ArrayStack() {
+        this.size = 16;
+        num = 0;
+        data = new Object[size];
+    }
+
     public boolean push(T t) {
-        if ((num + 1) == size) {
+        if (num == size) {
             return false;
         }
         data[num++] = t;
@@ -31,7 +37,7 @@ public class ArrayStack<T> {
         if (num == 0) {
             return null;
         }
-        return (T) data[num--];
+        return (T) data[--num];
     }
 
 }

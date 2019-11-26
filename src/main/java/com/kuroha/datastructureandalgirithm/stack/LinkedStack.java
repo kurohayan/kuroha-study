@@ -41,13 +41,17 @@ public class LinkedStack<T> {
     }
 
     public boolean push(T t) {
-        if ((num + 1) == size) {
+        if (num == size) {
             return false;
         }
-        Note<T> pipe = last;
+        Note<T> pipe = first;
         Note<T> note = new Note<>(pipe,t);
-        pipe.next = note;
-        last = note;
+        note.next = first.next;
+        note.pipe = first;
+        if (first.next != null) {
+            first.next.pipe = note;
+        }
+        first.next = note;
         num++;
         return true;
     }
