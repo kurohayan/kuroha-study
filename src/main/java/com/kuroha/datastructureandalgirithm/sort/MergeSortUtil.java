@@ -3,7 +3,7 @@ package com.kuroha.datastructureandalgirithm.sort;
 import com.alibaba.fastjson.JSON;
 
 /**
- * 并归排序
+ * 归并排序
  * @author kuroha
  */
 public class MergeSortUtil {
