@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 
 /**
  * 冒泡排序
+ * 基础排序,前后比较,逐步将最小值调换到未排序的最后一位
  * @author kuroha
  */
 public class BubbleSortUtil {

@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 
 /**
  * 插入排序
+ * 原理:从未排序队列中逐步找到最大值.并将其值放入已排序的最后一位,未排序的队列向后移动
  * @author kuroha
  */
 public class InsertSortUtil {

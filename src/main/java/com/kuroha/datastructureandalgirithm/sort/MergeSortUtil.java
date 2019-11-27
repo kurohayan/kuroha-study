@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 
 /**
  * 归并排序
+ * 原理:将大的排序问题拆分成小的排序问题,并且答案交由前一位进行计算.最后再从已排序的2个数组中依次取出值来组成有序队列
  * @author kuroha
  */
 public class MergeSortUtil {

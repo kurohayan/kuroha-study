@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 
 /**
  * 快速排序
+ * 原理:取任意一个值作为中间值,将其拆分成大于其值的队列和小于其值的队列.再对这2个对面进行排序.只拆分.不传递.
  * @author kuroha
  */
 public class QuickSortUtil {

@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 
 /**
  * 选择排序
+ * 原理:取未排序的第一个值,比较已排序对面,如果小于其值,插入到其后,后面的对面整体后移
  * @author kuroha
  */
 public class SelectSortUtil {
