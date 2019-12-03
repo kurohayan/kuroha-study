@@ -12,32 +12,31 @@ import java.util.*;
  */
 public class BucketSortUtil {
 
-    private static final int MAP_SIZE = 10;
+    private static final int BUCKET_SIZE = 100;
 
-    private static final int INTERVAL = 10;
+    private static final int INTERVAL = 1000;
 
     public static void sort(int[] data) {
-        int size = data.length;
-        Map<Integer, int[]> map = new TreeMap<>((o1, o2) -> o2-o1);
-        Map<Integer, Integer> sizeMap = new HashMap<>((int)(MAP_SIZE * 1.5));
-        for (int i = 0; i < MAP_SIZE; i++) {
-            int[] ints = new int[size];
-            map.put(i,ints);
-            sizeMap.put(i,0);
+        List<List<Integer>> buckets = new ArrayList<>(BUCKET_SIZE);
+        for (int i = 0; i < BUCKET_SIZE; i++) {
+            buckets.add(new ArrayList<>(INTERVAL));
         }
-        for (int num : data) {
-            int i = num / INTERVAL;
-            Integer value = sizeMap.get(i);
-            map.get(i)[value] = num;
-            sizeMap.put(i,++value);
+        for (int value : data) {
+            buckets.get(value/INTERVAL).add(value);
         }
         int num = 0;
-        for (int i = MAP_SIZE-1; i >=0; i--) {
-            int[] value = map.get(i);
-            quick_sort(value,0,value.length-1);
-            int mapSize = sizeMap.get(i);
-            for (int j = 0; j < mapSize; j++) {
-                data[num++] = value[j];
+        for (List<Integer> bucket : buckets) {
+            if (bucket.size() == 0) {
+                continue;
+            }
+            int[] ints = new int[bucket.size()];
+            int i = 0;
+            for (Integer value : bucket) {
+                ints[i++] = value;
+            }
+            quick_sort(ints,0,ints.length-1);
+            for (int value : ints) {
+                data[num++] = value;
             }
         }
     }

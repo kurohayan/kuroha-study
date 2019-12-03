@@ -10,6 +10,9 @@ import com.alibaba.fastjson.JSON;
 public class QuickSortUtil {
 
     public static void sort(int[] data) {
+        if (data.length == 0 || data.length == 1) {
+            return;
+        }
         quick_sort(data,0,data.length-1);
     }
 
