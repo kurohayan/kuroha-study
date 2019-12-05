@@ -1,5 +1,6 @@
 package com.kuroha.datastructureandalgirithm.sort;
 
+import com.alibaba.fastjson.JSON;
 import org.junit.Test;
 
 import java.util.Random;
@@ -49,6 +50,11 @@ public class SortTest {
         BucketSortUtil.sort(data6);
         endTime = System.currentTimeMillis();
         System.out.println("桶排序时间:" + (endTime - startTime));
+        int[] data7 = data.clone();
+        startTime = System.currentTimeMillis();
+        SortUtil.sort(data7);
+        endTime = System.currentTimeMillis();
+        System.out.println("综合排序:" + (endTime - startTime));
 
     }
 
