@@ -1,12 +1,17 @@
 package com.kuroha.datastructureandalgirithm.stream;
 
 import com.alibaba.fastjson.JSON;
+import com.google.common.cache.Cache;
+import com.google.common.cache.CacheBuilder;
+import com.google.common.cache.CacheLoader;
+import com.google.common.cache.LoadingCache;
 import javafx.scene.effect.FloatMap;
 import lombok.Data;
 import org.junit.Test;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentMap;
+import java.util.concurrent.ExecutionException;
 import java.util.function.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -322,6 +327,22 @@ public class StreamTest {
         Student s2 = new Student(2, "小红", 17);
         Student s3 = new Student(1, "小李", 18);
         Iterator<Student> collect = Stream.of(s1, s2, s3).collect(Collectors.collectingAndThen(Collectors.toList(), List::iterator));
+    }
+    /**
+     * Collectors-collectingAndThen
+     */
+    @Test
+    public void test23() throws ExecutionException {
+        LoadingCache<String, Integer> cache = CacheBuilder.newBuilder().maximumSize(1000).build(new CacheLoader<String, Integer>() {
+            @Override
+            public Integer load(String s) throws Exception {
+                return 0;
+            }
+        });
+        Integer num = cache.get("1");
+        cache.put("1",++num);
+        num = cache.get("1");
+        System.out.println(JSON.toJSONString(num));
     }
 
 
