@@ -1,10 +1,10 @@
 package com.kuroha.datastructureandalgirithm.search;
 
 /**
- * 二分查找
+ * 查找第一个大于等于给定值的元素
  * @author kuroha
  */
-public class BinarySearch1 {
+public class BinarySearch4 {
 
     public static int search(int[] data, int num) {
         int low = 0;
