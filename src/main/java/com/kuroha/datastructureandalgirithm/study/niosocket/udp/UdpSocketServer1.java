@@ -10,11 +10,12 @@ public class UdpSocketServer1 {
 
     public static void main(String[] args) throws Exception {
         DatagramSocket datagramSocket = new DatagramSocket(8848);
-        DatagramPacket datagramPacket = new DatagramPacket(new byte[1024],5);
+        DatagramPacket datagramPacket = new DatagramPacket(new byte[1024],1000);
         datagramSocket.receive(datagramPacket);
         datagramSocket.close();
         System.out.println(datagramPacket.getLength());
-        System.out.println(new String(datagramPacket.getData(),0,5));
+        System.out.println(datagramPacket.getLength());
+        System.out.println(new String(datagramPacket.getData(),0,datagramPacket.getLength()));
     }
 
 }
