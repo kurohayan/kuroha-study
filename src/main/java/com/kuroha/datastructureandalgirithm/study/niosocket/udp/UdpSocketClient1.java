@@ -18,5 +18,4 @@ public class UdpSocketClient1 {
         socket.close();
     }
 
-
 }
