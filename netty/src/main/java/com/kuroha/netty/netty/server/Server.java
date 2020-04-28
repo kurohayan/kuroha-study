@@ -1,10 +1,10 @@
 package com.kuroha.netty.netty.server;
 
-import com.kuroha.datastructureandalgirithm.study.netty.server.codec.OrderFrameDecoder;
-import com.kuroha.datastructureandalgirithm.study.netty.server.codec.OrderFrameEncoder;
-import com.kuroha.datastructureandalgirithm.study.netty.server.codec.OrderProtocolDecoder;
-import com.kuroha.datastructureandalgirithm.study.netty.server.codec.OrderProtocolEncoder;
-import com.kuroha.datastructureandalgirithm.study.netty.server.codec.handler.OrderServerProcessHandler;
+import com.kuroha.netty.netty.server.codec.OrderFrameDecoder;
+import com.kuroha.netty.netty.server.codec.OrderFrameEncoder;
+import com.kuroha.netty.netty.server.codec.OrderProtocolDecoder;
+import com.kuroha.netty.netty.server.codec.OrderProtocolEncoder;
+import com.kuroha.netty.netty.server.codec.handler.OrderServerProcessHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;

@@ -1,7 +1,7 @@
 package com.kuroha.netty.netty.common.order;
 
-import com.kuroha.datastructureandalgirithm.study.netty.common.Operation;
-import com.kuroha.datastructureandalgirithm.study.netty.common.OperationResult;
+import com.kuroha.netty.netty.common.Operation;
+import com.kuroha.netty.netty.common.OperationResult;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 

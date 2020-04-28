@@ -1,8 +1,9 @@
 package com.kuroha.netty.netty.client;
 
-import com.kuroha.datastructureandalgirithm.study.netty.common.RequestMessage;
-import com.kuroha.datastructureandalgirithm.study.netty.common.order.OrderOperation;
-import com.kuroha.datastructureandalgirithm.study.netty.util.IdUtil;
+import com.kuroha.netty.netty.client.codec.*;
+import com.kuroha.netty.netty.common.RequestMessage;
+import com.kuroha.netty.netty.common.order.OrderOperation;
+import com.kuroha.netty.netty.util.IdUtil;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;

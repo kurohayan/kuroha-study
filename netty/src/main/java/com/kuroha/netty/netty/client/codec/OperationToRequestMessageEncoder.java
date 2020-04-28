@@ -1,8 +1,8 @@
 package com.kuroha.netty.netty.client.codec;
 
-import com.kuroha.datastructureandalgirithm.study.netty.common.Operation;
-import com.kuroha.datastructureandalgirithm.study.netty.common.RequestMessage;
-import com.kuroha.datastructureandalgirithm.study.netty.util.IdUtil;
+import com.kuroha.netty.netty.common.Operation;
+import com.kuroha.netty.netty.common.RequestMessage;
+import com.kuroha.netty.netty.util.IdUtil;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToMessageEncoder;
 

@@ -1,6 +1,6 @@
 package com.kuroha.netty.netty.client.codec;
 
-import com.kuroha.datastructureandalgirithm.study.netty.common.RequestMessage;
+import com.kuroha.netty.netty.common.RequestMessage;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToMessageEncoder;

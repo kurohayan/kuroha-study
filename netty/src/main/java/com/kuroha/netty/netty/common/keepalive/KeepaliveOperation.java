@@ -1,7 +1,8 @@
 package com.kuroha.netty.netty.common.keepalive;
 
-import com.kuroha.datastructureandalgirithm.study.netty.common.Operation;
-import com.kuroha.datastructureandalgirithm.study.netty.common.OperationResult;
+import com.kuroha.netty.netty.common.Operation;
+import com.kuroha.netty.netty.common.OperationResult;
+import com.kuroha.netty.netty.common.Operation;
 
 /**
  * @author Chenyudeng

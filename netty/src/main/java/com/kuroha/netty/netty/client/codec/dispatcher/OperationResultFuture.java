@@ -1,6 +1,7 @@
 package com.kuroha.netty.netty.client.codec.dispatcher;
 
-import com.kuroha.datastructureandalgirithm.study.netty.common.OperationResult;
+
+import com.kuroha.netty.netty.common.OperationResult;
 import io.netty.util.concurrent.DefaultPromise;
 
 /**

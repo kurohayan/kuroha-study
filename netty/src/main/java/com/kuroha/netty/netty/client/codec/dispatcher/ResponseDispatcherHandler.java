@@ -1,6 +1,6 @@
 package com.kuroha.netty.netty.client.codec.dispatcher;
 
-import com.kuroha.datastructureandalgirithm.study.netty.common.ResponseMessage;
+import com.kuroha.netty.netty.common.ResponseMessage;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 

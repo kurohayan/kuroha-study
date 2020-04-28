@@ -1,6 +1,6 @@
 package com.kuroha.netty.netty.common.auth;
 
-import com.kuroha.datastructureandalgirithm.study.netty.common.OperationResult;
+import com.kuroha.netty.netty.common.OperationResult;
 import lombok.Data;
 
 /**

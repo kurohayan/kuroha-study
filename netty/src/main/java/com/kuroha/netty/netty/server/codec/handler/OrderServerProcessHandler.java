@@ -1,9 +1,9 @@
 package com.kuroha.netty.netty.server.codec.handler;
 
-import com.kuroha.datastructureandalgirithm.study.netty.common.Operation;
-import com.kuroha.datastructureandalgirithm.study.netty.common.OperationResult;
-import com.kuroha.datastructureandalgirithm.study.netty.common.RequestMessage;
-import com.kuroha.datastructureandalgirithm.study.netty.common.ResponseMessage;
+import com.kuroha.netty.netty.common.Operation;
+import com.kuroha.netty.netty.common.OperationResult;
+import com.kuroha.netty.netty.common.RequestMessage;
+import com.kuroha.netty.netty.common.ResponseMessage;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 

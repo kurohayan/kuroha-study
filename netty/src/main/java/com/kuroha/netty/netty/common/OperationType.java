@@ -1,11 +1,11 @@
 package com.kuroha.netty.netty.common;
 
-import com.kuroha.datastructureandalgirithm.study.netty.common.auth.AuthOperation;
-import com.kuroha.datastructureandalgirithm.study.netty.common.auth.AuthOperationResult;
-import com.kuroha.datastructureandalgirithm.study.netty.common.keepalive.KeepaliveOperation;
-import com.kuroha.datastructureandalgirithm.study.netty.common.keepalive.KeepaliveOperationResult;
-import com.kuroha.datastructureandalgirithm.study.netty.common.order.OrderOperation;
-import com.kuroha.datastructureandalgirithm.study.netty.common.order.OrderOperationResult;
+import com.kuroha.netty.netty.common.auth.AuthOperation;
+import com.kuroha.netty.netty.common.auth.AuthOperationResult;
+import com.kuroha.netty.netty.common.keepalive.KeepaliveOperation;
+import com.kuroha.netty.netty.common.keepalive.KeepaliveOperationResult;
+import com.kuroha.netty.netty.common.order.OrderOperation;
+import com.kuroha.netty.netty.common.order.OrderOperationResult;
 
 /**
  * @author Chenyudeng
