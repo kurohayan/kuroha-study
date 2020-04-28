@@ -4,11 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.kuroha</groupId>
-        <artifactId>dataStructureAndAlgirithm</artifactId>
+        <artifactId>kuroha-study</artifactId>
         <version>1.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.kuroha.dataStructureAndAlgorithm</groupId>
     <artifactId>algorithm</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>algorithm</name>
