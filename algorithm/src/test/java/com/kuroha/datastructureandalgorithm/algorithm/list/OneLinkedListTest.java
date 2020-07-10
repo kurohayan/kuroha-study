@@ -1,5 +1,6 @@
 package com.kuroha.datastructureandalgorithm.algorithm.list;
 
+import com.kuroha.algorithm.list.OneLinkedList;
 import org.junit.Test;
 
 public class OneLinkedListTest {

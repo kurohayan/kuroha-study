@@ -1,5 +1,6 @@
 package com.kuroha.datastructureandalgorithm.algorithm.stack;
 
+import com.kuroha.algorithm.stack.LinkedStack;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 

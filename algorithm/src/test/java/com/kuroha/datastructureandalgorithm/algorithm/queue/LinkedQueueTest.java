@@ -1,5 +1,6 @@
 package com.kuroha.datastructureandalgorithm.algorithm.queue;
 
+import com.kuroha.algorithm.queue.LinkedQueue;
 import org.junit.Test;
 
 /**

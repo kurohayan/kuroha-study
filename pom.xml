@@ -22,6 +22,7 @@
     <modules>
         <module>netty</module>
         <module>algorithm</module>
+        <module>spring</module>
     </modules>
 
     <build>

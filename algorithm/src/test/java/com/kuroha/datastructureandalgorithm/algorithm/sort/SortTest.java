@@ -1,5 +1,6 @@
 package com.kuroha.datastructureandalgorithm.algorithm.sort;
 
+import com.kuroha.algorithm.sort.*;
 import org.junit.Test;
 
 import java.util.Random;

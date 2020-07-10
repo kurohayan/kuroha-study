@@ -1,7 +1,7 @@
 package com.kuroha.algorithm.socket.server;
 
-import com.kuroha.datastructureandalgirithm.socket.entry.pojo.BeginThread;
-import com.kuroha.datastructureandalgirithm.socket.entry.pojo.NameThreadFactory;
+import com.kuroha.algorithm.socket.entry.pojo.BeginThread;
+import com.kuroha.algorithm.socket.entry.pojo.NameThreadFactory;
 
 import java.io.*;
 import java.net.ServerSocket;
