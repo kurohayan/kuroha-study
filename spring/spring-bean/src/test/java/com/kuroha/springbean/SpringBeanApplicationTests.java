@@ -1,13 +1,11 @@
 package com.kuroha.springbean;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import java.util.concurrent.TimeUnit;
 
-@SpringBootTest
-class SpringBeanApplicationTests {
+public class SpringBeanApplicationTests {
 
-    @Test
-    void contextLoads() {
+    public static void main(String[] args) {
+        System.out.println(TimeUnit.HOURS.toMillis(6));
     }
 
 }

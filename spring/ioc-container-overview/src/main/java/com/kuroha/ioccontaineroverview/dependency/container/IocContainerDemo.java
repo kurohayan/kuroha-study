@@ -19,7 +19,7 @@ public class IocContainerDemo {
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(beanFactory);
         //xml配置文件用于加载配置
         // 加载配置
-        int i = reader.loadBeanDefinitions("classpath:/META_INF/dependency-injection-context.xml");
+        int i = reader.loadBeanDefinitions("classpath:/META-INF/dependency-injection-context.xml");
         System.out.println("bean 定义加载的数量:" + i);
         // 依爱查找集合对象
         lookupInByCollecationType(beanFactory);
