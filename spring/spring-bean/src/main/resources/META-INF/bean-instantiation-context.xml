@@ -5,6 +5,13 @@
         http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!-- 静态方法实例化 Bean -->
     <bean id="user-by-static-method" class="com.kuroha.ioccontaineroverview.dependency.domain.User"
         factory-method="createUser"/>
+    <!-- 实例(Bean)方法实例化 Bean -->
+    <bean id="user-by-instance-method" factory-bean="userFactory" factory-method="createUser"/>
+    <bean id="userFactory" class="com.kuroha.springbean.bean.factory.DefaultUserFactory"/>
+
+    <!-- FactoryBean实例化 Bean -->
+    <bean id="user-by-factory-bean" class="com.kuroha.springbean.bean.factory.UserFactoryBean"/>
 </beans>

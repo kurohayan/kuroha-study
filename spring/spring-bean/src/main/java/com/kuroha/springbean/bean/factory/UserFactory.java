@@ -6,9 +6,13 @@ import com.kuroha.ioccontaineroverview.dependency.domain.User;
  * {@link User} 工厂类
  * @author Chenyudeng
  */
-public class UserFactory {
+public interface UserFactory extends AutoCloseable {
 
-    public User createUser() {
+    default User createUser() {
         return User.createUser();
     }
+
+    void initUserFactory();
+
+    void doDestroy();
 }

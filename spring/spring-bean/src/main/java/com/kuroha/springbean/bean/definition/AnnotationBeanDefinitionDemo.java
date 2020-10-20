@@ -20,6 +20,7 @@ import java.util.Map;
 public class AnnotationBeanDefinitionDemo {
 
     public static void main(String[] args) {
+        // 初始化BeanFactroy容器
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
         //注册Configuration Class (配置类)
         applicationContext.register(AnnotationBeanDefinitionDemo.class);
