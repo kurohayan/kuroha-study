@@ -8,7 +8,7 @@
 		<version>1.0.0</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
-	<artifactId>spring-demo</artifactId>
+	<artifactId>spring-flux-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-demo</name>
 	<description>Demo project for Spring Boot</description>

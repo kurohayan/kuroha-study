@@ -101,7 +101,7 @@ public class SnowflakeIdWorker {
     public static void main(String[] args) {
         //SnowFlakeUtil util=new SnowFlakeUtil();
         SnowflakeIdWorker snowFlake=new SnowflakeIdWorker(0, 0);
-        for (int i = 0; i < 10; i++) {
+        for (long i = 0; i < 1000000000000L; i++) {
             System.out.println(snowFlake.nextId());
         }
     }

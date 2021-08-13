@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.kuroha.mq.mqserver.config.RocketMqConfig

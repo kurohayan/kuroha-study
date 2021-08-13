@@ -1,0 +1,43 @@
+{"properties": [
+  {
+    "name": "com.kuroha.mq.server-addr",
+    "type": "java.lang.String",
+    "description": "mq server address."
+  },
+  {
+    "name": "com.kuroha.mq.access-key",
+    "type": "java.lang.String",
+    "description": "mq server accessKey"
+  },
+  {
+    "name": "com.kuroha.mq.access-secret",
+    "type": "java.lang.String",
+    "description": "mq server secretKey"
+  },
+  {
+    "name": "com.kuroha.mq.group-id",
+    "type": "java.lang.String",
+    "description": "mq server groupId"
+  },
+  {
+    "name": "com.kuroha.mq.order-group-id",
+    "type": "java.lang.String",
+    "description": "mq server orderGroupId"
+  },
+  {
+    "name": "com.kuroha.mq.enabled",
+    "type": "java.lang.Boolean",
+    "defaultValue": true,
+    "description": "enable mq or not."
+  },
+  {
+    "name": "com.kuroha.mq.subscribe",
+    "type": "java.util.ArrayList",
+    "description": "enable mq or not."
+  },
+  {
+    "name": "com.kuroha.mq.order-subscribe",
+    "type": "java.util.ArrayList",
+    "description": "enable mq or not."
+  }
+]}
