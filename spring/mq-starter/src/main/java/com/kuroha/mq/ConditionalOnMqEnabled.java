@@ -1,4 +1,4 @@
-package com.kuroha.mq.mqserver;
+package com.kuroha.mq;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 

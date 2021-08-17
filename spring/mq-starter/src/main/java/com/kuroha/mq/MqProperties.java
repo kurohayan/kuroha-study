@@ -1,4 +1,4 @@
-package com.kuroha.mq.mqserver;
+package com.kuroha.mq;
 
 import lombok.Data;
 import org.slf4j.Logger;

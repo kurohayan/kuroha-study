@@ -1,4 +1,4 @@
-package com.kuroha.mq.mqserver.entity.dto;
+package com.kuroha.mq.entity.dto;
 
 import lombok.Data;
 

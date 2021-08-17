@@ -1,4 +1,4 @@
-package com.kuroha.mq.mqserver.entity.dto;
+package com.kuroha.mq.entity.dto;
 
 public class MqContants {
     public static final String DEFAULT_GROUP_ID = "GroupId_Test";

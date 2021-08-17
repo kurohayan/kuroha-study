@@ -1,11 +1,11 @@
-package com.kuroha.mq.mqserver.config;
+package com.kuroha.mq.config;
 
 import com.aliyun.openservices.ons.api.*;
 import com.aliyun.openservices.ons.api.order.MessageOrderListener;
 import com.aliyun.openservices.ons.api.order.OrderConsumer;
 import com.aliyun.openservices.ons.api.order.OrderProducer;
-import com.kuroha.mq.mqserver.ConditionalOnMqEnabled;
-import com.kuroha.mq.mqserver.MqProperties;
+import com.kuroha.mq.ConditionalOnMqEnabled;
+import com.kuroha.mq.MqProperties;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
