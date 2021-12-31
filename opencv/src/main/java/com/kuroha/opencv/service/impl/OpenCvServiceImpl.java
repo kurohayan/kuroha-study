@@ -9,7 +9,6 @@ import org.opencv.features2d.Features2d;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 import org.opencv.xfeatures2d.SURF;
-import org.springframework.stereotype.Service;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -17,7 +16,6 @@ import java.util.List;
 /**
  * @author samtofor
  */
-@Service
 public class OpenCvServiceImpl implements OpenCvService {
 
     static {

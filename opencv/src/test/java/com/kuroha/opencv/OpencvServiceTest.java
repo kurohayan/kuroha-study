@@ -1,20 +1,12 @@
 package com.kuroha.opencv;
 
 import com.kuroha.opencv.service.OpenCvService;
-import org.junit.jupiter.api.Disabled;
+import com.kuroha.opencv.service.impl.OpenCvServiceImpl;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-@SpringBootTest
-@ExtendWith(SpringExtension.class)
-@Disabled("explanation")
 public class OpencvServiceTest {
 
-    @Autowired
-    private OpenCvService openCvService;
+    private final OpenCvService openCvService = new OpenCvServiceImpl();
 
     @Test
     public void test() {
