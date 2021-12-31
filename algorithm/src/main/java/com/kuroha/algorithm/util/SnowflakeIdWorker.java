@@ -95,6 +95,16 @@ public class SnowflakeIdWorker {
         return mill;
     }
 
+    private static final SnowflakeIdWorker INSTANCE = new SnowflakeIdWorker(0,0);
+
+    public static long staticNext() {
+        return INSTANCE.nextId();
+    }
+
+    public static String staticNextStr() {
+        return String.valueOf(staticNext());
+    }
+
     private long getNewstmp() {
         return System.currentTimeMillis();
     }

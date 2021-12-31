@@ -23,7 +23,7 @@ public class DatasourceConfig {
                 .password("DIOXRndKtIDK0rf8")
                 .database("rights")
                 .sslMode(SslMode.PREFERRED)
-                .tlsVersion(TlsVersions.TLS1_3, TlsVersions.TLS1_2, TlsVersions.TLS1_1)
+                .tlsVersion(TlsVersions.TLS1_3, TlsVersions.TLS1_2, TlsVersions.TLS1_1, TlsVersions.TLS1)
                 .useServerPrepareStatement()
                 .tcpKeepAlive(true)
                 .tcpNoDelay(true)

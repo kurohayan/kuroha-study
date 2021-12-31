@@ -1,0 +1,8 @@
+spring:
+  redis:
+    host: localhost
+    password: 123456
+    port: 6379
+    jedis:
+      pool:
+        max-wait: 2000ms
